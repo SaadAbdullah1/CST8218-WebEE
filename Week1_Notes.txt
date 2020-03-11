@@ -1,0 +1,36 @@
+Using JDK (Oracle) 8 -SE Java (JRE & JDK)
+Netbeans 11
+Jakarta (GlassFish 5.1) -EE Java (JSR's, RI)
+	-Java Specification Requests
+	-Reference Implementation (what we will be working with)
+
+Exams (Half MC, Half Written Answers)
+
+What is an Enterprise Application?
+-Excel? = No (Only one person notices when it crashes)
+-Outlook? = No (It is not a server, its a client)
+-Google? = Yes
+-Facebook? = Yes
+-Gmail? = Yes (It is the server and the client simultaneously)
+
+-Includes JSE
+-Includes Application Server
+	-GlassFish, JBoss, etc.
+	-is something like a template for an EApp
+
+Enterprise Architecture (3 Layer Setup)
+-Client System
+		-Application Server	-Data Store
+-Client System
+
+Top->Bottom (Client Layer, Security Layer, WebServices-Client Layer, Content Management Layer, 
+	     Business Logic Layer, Data Storage Layer)
+
+Enterprise Applications
+-Many simultaneous users (multithreading)
+-Deal with persistent data
+	-databases
+	-concurrent database access
+	-object relational mapping (ORM) 
+-Working with entities we store in a databases (e.g employee)
+
