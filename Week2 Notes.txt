@@ -1,0 +1,11 @@
+ORM- Object Relational Mapping
+	-take our objects apart, store them in our database
+
+-----
+Business is considered more important than Presentation
+	-When we look at our bank account balance, we wanna see a big number, the font its in doesnt matter as much
+	-business layer is more 'protected'
+
+
+--
+By Midterm time, be able to distinguish between 'Layers' of Databases.
